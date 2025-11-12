@@ -818,7 +818,7 @@ class _SLDSStatesMaskedData(_SLDSStatesGibbs, _SLDSStatesVBEM, _SLDSStatesMeanFi
     we only support the simplest case in which the observation noise
     has diagonal covariance, such that,
 
-        y_{t,n} ~ N(c_n \dot x_t,  \sigma^2_n).
+        y_{t,n} ~ N(c_n \\dot x_t,  \\sigma^2_n).
 
     In this case, missing data corresponds to fewer emission potentials.
 

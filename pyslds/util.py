@@ -36,7 +36,7 @@ def expected_hmm_logprob(pi_0, trans_matrix, stats):
     """
     :param pi_0:          initial distribution
     :param trans_matrix:  transition matrix
-    :param stats:         tuple (E[z_t], \sum_t E[z_t z_{t+1}.T])
+    :param stats:         tuple (E[z_t], \\sum_t E[z_t z_{t+1}.T])
 
     :return:  E_{q(z)} [ log p(z) ]
     """
